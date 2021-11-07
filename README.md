@@ -188,7 +188,10 @@ def num():
  
 print(num())
 ```
-
+### Output ---> decor1(decor(num))
+```
+400
+```
 
 
 
