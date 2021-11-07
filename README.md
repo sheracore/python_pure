@@ -193,7 +193,7 @@ print(num())
 400
 ```
 
-# __call__
+# __ call __
 ```
 class Example:
     def __init__(self):
