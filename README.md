@@ -254,5 +254,32 @@ Instance Created
 Instance is called via special method
 ```
 
+# publishing packages
+```
+pip install setuptools wheel twine
+mkdir mamadpdf
+cd mamadpdf
+mkdir mamadpdf
+mkdir tests
+mkdir data
+cd maamdpdf and create __init__, pdf2text.py and ... files with some methods
+cd ..
+create README.md file
+create setup.py file 
+inside of setup file :
+  import seruptools
+  from pathlib import Path
+  
+  setuptools.setup(
+    name="mamadpdf",
+    version=1.0,
+    long_descriprion=Path("README.md").read_text(),
+    packages=setuptools.find_packages(exclude=["tests","data"])
+  )
+  
+ python3 setup.py sdist bdist_wheel
+ twine upload dist/*
+  
+```
 
 
