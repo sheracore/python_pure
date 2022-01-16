@@ -286,6 +286,8 @@ pydoc3 math
 
 # My python file:
 pydoc3 moshpdf.pdf2image
+pydoc3 -w moshpdf.pdf2image
+
 ```
 
 
