@@ -279,7 +279,17 @@ inside of setup file :
   
  python3 setup.py sdist bdist_wheel
  twine upload dist/*
-  
 ```
+# python documetion
+```
+pydoc3 math
+
+# My python file:
+pydoc3 moshpdf.pdf2image
+```
+
+
+
+
 
 
